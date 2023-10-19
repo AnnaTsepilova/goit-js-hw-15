@@ -16,7 +16,6 @@ function onFormSubmit(event) {
     alert("Будь ласка, заповніть всі поля!");
   } else {
     console.log(formData);
+    event.currentTarget.reset();
   }
-
-  event.currentTarget.reset();
 }
